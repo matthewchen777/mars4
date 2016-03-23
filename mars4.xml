@@ -1,15 +1,15 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_whileUntil" id="8" inline="false" x="18" y="1">
+  <block type="controls_whileUntil" id="1" inline="false" x="18" y="1">
     <field name="MODE">UNTIL</field>
     <value name="NUMBER">
-      <block type="sensor_button" id="36">
+      <block type="sensor_button" id="2">
         <field name="OBJECT">ENTER</field>
       </block>
     </value>
     <statement name="DO">
-      <block type="controls_if" id="65" inline="false">
+      <block type="controls_if" id="3" inline="false">
         <value name="IF0">
-          <block type="sensor_spectrometer" id="80">
+          <block type="sensor_spectrometer" id="4">
             <field name="LIGHT">RED</field>
           </block>
         </value>
